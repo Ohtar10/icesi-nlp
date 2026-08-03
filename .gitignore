@@ -163,3 +163,4 @@ cython_debug/
 
 tb_logs/
 */hf/
+*/hf-gpt/
