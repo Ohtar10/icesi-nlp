@@ -37,9 +37,9 @@ langchain-community>=0.3.0
 langchain-text-splitters>=0.3.0
 langchain-ollama>=0.2.0
 langchain-huggingface>=0.1.0
-langchain-mcp-adapters>=0.1.0
+langchain-mcp-adapters>=0.3.0,<0.4.0
 langgraph>=0.3.0
-mcp>=1.0.0
+mcp>=1.24.0,<2.0.0
 
 # Classic NLP
 spacy>=3.8.0
