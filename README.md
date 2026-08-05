@@ -9,26 +9,27 @@ Repositorio para material de apoyo al curso de NLP en Universidad Icesi, Cali, C
 ├── README.md
 ├── requirements.txt
 ├── Sesion1
-│   ├── 1-spacy-basics.ipynb
-│   ├── 2-tokenization.ipynb
-│   ├── 3-stemming.ipynb
-│   ├── 4-lemmatization.ipynb
-│   ├── 5-vocabulary.ipynb
-│   ├── 6-practice.ipynb
-│   ├── 7-sentiment-analysis.ipynb
+│   ├── 1-fundamentos-nlp-con-spacy.ipynb
+│   ├── 2-normalizacion-y-patrones.ipynb
+│   ├── 3-embeddings-y-lstm-minimo.ipynb
+│   ├── 4-lstm-avanzado-con-pytorch-lightning.ipynb
 │   ├── moviereviews.tsv
 │   ├── owlcreek.txt
-│   └── reaganomics.txt
+│   ├── reaganomics.txt
+│   └── tb_logs
 ├── Sesion2
-│   └── 1-semantics-word-vectors.ipynb
-├── Sesion3
 │   └── 1-transformers-from-scratch.ipynb
-├── Sesion4
+├── Sesion3
 │   └── 1-text-classification-with-hf.ipynb
-├── Sesion5
+├── Sesion4
 │   └── 1-text-generation.ipynb
+├── Sesion5
+│   ├── 1-ollama-rag.ipynb
+│   └── 2-ollama-langchain.ipynb
 └── Sesion6
-    └── 1-ollama-rag.ipynb
+    ├── 1-herramientas-y-agentes-con-ollama.ipynb
+    ├── 2-mcp-langchain-ollama.ipynb
+    └── 3-chatbot-con-mcp-y-gradio.ipynb
 ```
 
 Este repositorio esta diseñado para servir como referencia funcional de las lecciones del curso. Cada sesión del curso tiene su propio directorio con notebooks de Jupyter con el material técnico visto en las lecciones y de donde el estudiante se puede valer para hacer sus propios entregables.
@@ -37,27 +38,26 @@ Los notebooks pueden ser ejecutados en Google Colab de forma individual y auto-s
 
 ## Sesiones
 
-### Sesión 1 - NLP Clásico
-- [NLP Básico con SpaCy](./Sesion1/1-spacy-basics.ipynb)
-- [Tokenización](./Sesion1/2-tokenization.ipynb)
-- [Stemming](./Sesion1/3-stemming.ipynb)
-- [Lemmatization](./Sesion1/4-lemmatization.ipynb)
-- [Vocabularios](./Sesion1/5-vocabulary.ipynb)
-- [Práctica](./Sesion1/6-practice.ipynb)
-- [Análisis de Sentimientos](./Sesion1/7-sentiment-analysis.ipynb)
+### Sesión 1 - Fundamentos, normalización y secuencias
+- [Fundamentos de NLP con spaCy](./Sesion1/1-fundamentos-nlp-con-spacy.ipynb)
+- [Normalización, patrones y práctica guiada](./Sesion1/2-normalizacion-y-patrones.ipynb)
+- [Embeddings y LSTM mínimo](./Sesion1/3-embeddings-y-lstm-minimo.ipynb)
+- [LSTM avanzado con PyTorch Lightning y TensorBoard](./Sesion1/4-lstm-avanzado-con-pytorch-lightning.ipynb)
 
-### Sesión 2 - Word Embeddings
-- [Semantica y vectores de palarba](./Sesion2/1-semantics-word-vectors.ipynb)
+### Sesión 2 - Transformers
+- [Transformers desde cero](./Sesion2/1-transformers-from-scratch.ipynb)
 
-### Sesión 3 - Transformers
-- [Transformers desde cero](./Sesion3/1-transformers-from-scratch.ipynb)
+### Sesión 3 - BERT y Finetuning
+- [Clasificación de texto con Hugging Face](./Sesion3/1-text-classification-with-hf.ipynb)
 
-### Sesión 4 - BERT y Finetunning
-- [Clasificación de texto con Hugging Face](./Sesion4/1-text-classification-with-hf.ipynb)
+### Sesión 4 - Generación de texto
+- [Generación de texto con modelos GPT](./Sesion4/1-text-generation.ipynb)
 
-### Sesión 5 - Generación de texto
-- [Generación de texto con modelos GPT](./Sesion5/1-text-generation.ipynb)
+### Sesión 5 - Retrieval-Augmented Generation
+- [Ollama RAG](./Sesion5/1-ollama-rag.ipynb)
+- [RAG con Ollama y LangChain](./Sesion5/2-ollama-langchain.ipynb)
 
-### Sesión 6 - Retrieval Augmented Generation
-- [Ollama RAG](./Sesion6/1-ollama-rag.ipynb)
-
+### Sesión 6 - Herramientas, agentes y MCP
+- [Herramientas y agentes con Ollama](./Sesion6/1-herramientas-y-agentes-con-ollama.ipynb)
+- [MCP con LangChain y Ollama](./Sesion6/2-mcp-langchain-ollama.ipynb)
+- [Chatbot con MCP, Ollama y Gradio](./Sesion6/3-chatbot-con-mcp-y-gradio.ipynb) *(opcional avanzado)*
