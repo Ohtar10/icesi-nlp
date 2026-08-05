@@ -28,7 +28,7 @@ Repositorio para material de apoyo al curso de NLP en Universidad Icesi, Cali, C
 │   └── 2-ollama-langchain.ipynb
 └── Sesion6
     ├── 1-herramientas-y-agentes-con-ollama.ipynb
-    ├── 2-mcp-con-langchain-y-ollama.ipynb
+    ├── 2-mcp-langchain-ollama.ipynb
     └── 3-chatbot-con-mcp-y-gradio.ipynb
 ```
 
@@ -59,5 +59,5 @@ Los notebooks pueden ser ejecutados en Google Colab de forma individual y auto-s
 
 ### Sesión 6 - Herramientas, agentes y MCP
 - [Herramientas y agentes con Ollama](./Sesion6/1-herramientas-y-agentes-con-ollama.ipynb)
-- [MCP con LangChain y Ollama](./Sesion6/2-mcp-con-langchain-y-ollama.ipynb)
+- [MCP con LangChain y Ollama](./Sesion6/2-mcp-langchain-ollama.ipynb)
 - [Chatbot con MCP, Ollama y Gradio](./Sesion6/3-chatbot-con-mcp-y-gradio.ipynb) *(opcional avanzado)*
