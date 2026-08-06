@@ -1,7 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 import httpx
 
-mcp = FastMCP("ClimaMCP")
+mcp = FastMCP("ClimaMCP", host="localhost", port=9081)
 
 @mcp.tool()
 def clima_actual(city: str) -> str:
@@ -39,4 +39,5 @@ def clima_actual(city: str) -> str:
     )
 
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    # Servidor HTTP en el puerto 9081 para compatibilidad con Colab
+    mcp.run(transport="streamable-http")
