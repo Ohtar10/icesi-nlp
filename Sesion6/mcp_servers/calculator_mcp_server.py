@@ -2,7 +2,7 @@ from mcp.server.fastmcp import FastMCP
 import ast
 import operator as op
 
-mcp = FastMCP("CalculadoraMCP", host="localhost", port=8080)
+mcp = FastMCP("CalculadoraMCP", host="localhost", port=9080)
 
 ALLOWED_BIN_OPS = {
     ast.Add: op.add,
@@ -38,5 +38,5 @@ def calculadora(expression: str) -> str:
     return f"Resultado exacto: {result}"
 
 if __name__ == "__main__":
-    # Servidor HTTP en el puerto 8080 para compatibilidad con Colab
+    # Servidor HTTP en el puerto 9080 para compatibilidad con Colab
     mcp.run(transport="streamable-http")
