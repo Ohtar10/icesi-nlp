@@ -166,3 +166,5 @@ tb_logs/
 */hf-gpt/
 Sesion5/data/
 Sesion5/faiss_index/
+
+.vscode/
